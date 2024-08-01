@@ -1,0 +1,15 @@
+my_dict = {'Ann': 1988, 'Max': 1985, 'Alex': 1986, 'Den': 1978, 'Natali': 1992}
+print('Календарь др. друзей:' ,my_dict)
+print('Год рождения Alex: ' ,my_dict['Alex'])
+print('Год рождения Gas:', my_dict.get('Gas', 'Нет такого значения'))
+my_dict.update({'lev': 2019, 'eliza': 1988})
+print('Календарь др. друзей:' , my_dict)
+dell_= my_dict.pop('Ann')
+print( 'Удаленное значение:' , dell_)
+print('Календарь др. друзей:', my_dict)
+my_set = {1,2,5,2,5,3,'str','ann','gas',(33,54)}
+print('Множество:' , my_set)
+my_set.add(9)
+my_set.add(7)
+my_set.remove('ann')
+print('Измененое множество:', my_set)
