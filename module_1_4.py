@@ -1,4 +1,5 @@
 my_string = input('Введите произвольное четырех стишие: ')
+print('Количество символов в строке:' ,my_string.__len__())
 print(my_string.upper())
 print(my_string.lower())
 print(my_string.replace(' ',''))
